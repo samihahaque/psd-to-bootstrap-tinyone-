@@ -1,0 +1,121 @@
+@font-face{
+    font-family:Helvetica;
+    src:url(../fonts/Helvetica Neu Bold copy.ttf);
+}
+body{
+    font-family:Helvetica;
+}
+header{
+    background-color:#fcdb00;
+}
+.custom_nav{
+    background-color: transparent !important;
+}
+.custom_nav ul li a{
+    color:black !important;
+    font-size:22px !important;
+    font-weight: bold !important;
+    
+}
+.custom_nav ul li{
+    padding:0 24px;
+}
+.custom_nav .logo{
+    font-size: 30px;
+    font-weight: bold;
+}
+.banner .icon{
+    font-size:50px;
+}
+.banner{
+    background-color:#fcdb00;
+    padding:5% 0;
+}
+.banner .text{
+    padding-top:11%;
+}
+.banner .text h1{
+    font-size: 32px;
+    font-weight: bold;
+    padding:4% 0;
+}
+.banner .text h5{
+    font-size: 20px;
+    font-weight: normal;
+    color: #9d8f1e;
+    padding-bottom: 4%;
+}
+.banner .text p{
+    font-size: 16px;
+    font-weight:normal;
+    color: #9d8f1e;
+    padding-bottom: 4%;
+}
+.banner .ipad_img{
+    margin-left: 35%;
+}
+.content .description h1{
+    font-size: 22px;
+}
+.content .description p{
+    font-size: 16px;
+    color:#ababab;
+}
+.content{
+    padding:5% 0;
+}
+.content .title{
+    padding:2% 0;
+}
+.content .title h1{
+    font-size:32px;
+    font-weight: bold;
+}
+.content .title p{
+    color:#989ca0;
+    font-size: 20px;
+}
+.content .gallery{
+    padding:10% 0;
+}
+.gallery .pic img{
+    width:100%;
+}
+footer{
+    background-color: black;
+    padding-top: 3%;
+    padding-bottom: 7%;
+}
+footer i{
+    font-size: 50px;
+    color: #fcdb00;
+}
+footer .social{
+    padding-top:5%;
+    padding-bottom: 10%;
+}
+footer .list li{
+    padding:0 0;
+    border:none;
+    background-color: transparent;
+}
+footer .list ul li a{
+    font-size:16px;
+    color:white;
+}
+footer .title{
+    padding:3% 0;
+}
+footer .title h1{
+    color:#fcdb00;
+    font-size: 32px;
+    font-weight: bold;
+}
+footer .title p{
+    color:#898989;
+    font-size: 20px;
+    
+}
+footer .description{
+    color:white;
+}
