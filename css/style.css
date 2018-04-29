@@ -90,11 +90,13 @@ header{
     color:#656a71;
 }
 .content .gallery{
+    padding:0 3.5%;
     padding-bottom:18%;
     transition: 0.6s;
+    
 }
 .content .gallery:hover{
-    transform: scale(1.1);
+    transform: scale(1.06);
 }
 .content .gallery .image img{
     width:100%;
