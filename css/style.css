@@ -15,7 +15,10 @@ header{
     color:black !important;
     font-size:22px !important;
     font-weight: bold !important;
-    
+    transition: 0.6s !important;
+}
+.custom_nav ul li a:hover{
+    transform: scale(1.07);
 }
 .custom_nav ul li{
     padding:0 24px;
@@ -26,6 +29,22 @@ header{
 }
 .banner .icon{
     font-size:50px;
+    transition:0.3s;
+}
+.banner .apple:hover{
+    transform: scale(1.15);
+    color:white;
+    
+}
+.banner .android:hover{
+    transform: scale(1.15);
+    color:yellowgreen;
+    
+}
+.banner .windows:hover{
+    transform: scale(1.15);
+    color:mediumblue;
+    
 }
 .banner{
     background-color:#fcdb00;
@@ -54,41 +73,54 @@ header{
 .banner .ipad_img{
     margin-left: 35%;
 }
-.content .description h1{
-    font-size: 22px;
-}
-.content .description p{
-    font-size: 16px;
-    color:#ababab;
-}
 .content{
-    padding:5% 0;
+    padding:6% 0;
 }
 .content .title{
-    padding:2% 0;
+    padding-bottom:7%;
 }
 .content .title h1{
-    font-size:32px;
+    padding-bottom: 2%;
+    font-size: 32px;
     font-weight: bold;
 }
 .content .title p{
-    color:#989ca0;
     font-size: 20px;
+    font-weight:normal;
+    color:#656a71;
 }
 .content .gallery{
-    padding:10% 0;
+    padding-bottom:18%;
+    transition: 0.6s;
 }
-.gallery .pic img{
+.content .gallery:hover{
+    transform: scale(1.1);
+}
+.content .gallery .image img{
     width:100%;
+}
+.content .gallery .description h1{
+    font-size: 22px;
+    padding-bottom: 4%;
+}
+.content .gallery .description p{
+    font-size: 16px;
+    color:#c2c2c2;
 }
 footer{
     background-color: black;
     padding-top: 3%;
     padding-bottom: 7%;
 }
+
 footer i{
     font-size: 50px;
     color: #fcdb00;
+    transition: 0.5s;
+}
+footer i:hover{
+    transform: scale(1.1);
+    color:darkgoldenrod;
 }
 footer .social{
     padding-top:5%;
